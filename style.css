@@ -1,0 +1,45 @@
+/* header related style */
+.header{
+    background: url(images/header-background.png);
+}
+.header-ul{
+    display: flex;
+    padding: 30px 30px 30px 800px;
+}
+.header-link{
+    color: azure;
+    
+}
+nav li {
+    
+    list-style: none;
+    margin-right: 50px;
+    
+  }
+  nav a{
+    text-decoration: none;
+    font-size: 26px;
+    
+  }
+.header-nav{
+    display: flex;
+}
+.header-img{
+    padding: 30px;
+}
+header h1{
+    font-size: 50px;
+}
+.header-text{
+    padding: 60px 150px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+.all-name{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.header-item{
+    display: flex;
+}
