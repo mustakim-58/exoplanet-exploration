@@ -1,41 +1,88 @@
 <!DOCTYPE html>
+<!-- a code by Mohammed Ismail Hossain Shihab -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exomos</title>
-
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <nav class="header-nav">
-        <a href=""><img src="images/exomos-logo.png" alt=""></a>
-        
-        <ul class="header-ul">
-            <li><a href="" class="header-link">Home</a></li>
-            <li><a href=""class="header-link">About</a></li>
-            <li><a href=""class="header-link">Contact</a></li>
-            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></a></li>
-            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-        </ul>
-    </nav>
-    <div class="header-item">
-        <div class="header-text">
-            <h1>Exomos</h1>
-            <p> <samp class="all-name">EXOMOS</samp> is a dynamic group of space enthusiasts dedicated to simplifying exoplanet exploration and making it accessible to everyone. Led by <span class="all-name">Sajedul Hossain Nahin</span>, a passionate developer and researcher, the team brings together a diverse range of skills and expertise. <span class="all-name">Mrinmoy Chakraborty Argho</span>, a talented researcher and graphic designer, contributes to the team's creative vision. <span class="all-name">Mustakim Billah</span>, a brilliant web developer, ensures the team's website is user-friendly and informative. <span class="all-name">Mohammod Samiur Rahman Sohan</span>, a dedicated field researcher, provides valuable insights from the ground. And our intellectual team advisor offers guidance and support throughout the project. Together, Team EXOMOS is united by a shared passion for space exploration and a commitment to making complex scientific concepts understandable to all.</p>
+    <!-- Header -->
+    <header>
+        <div class="hdr-img">
+            <a href="#home">
+                <img src="./images/exomos-logo.png.png" alt="">
+            </a>
         </div>
-        <img class="header-img" src="images/earth.jpg" alt="">
-        <img class="header-img" src="images/galaxy.jpg" alt="">
-    </div>
 
-  </header>
-  <main>
+        <nav>
+            <ul>
+                <li><a href="#explore-sctn">Explore</a></li>
+                <li><a href="#">QandA</a></li>
+                <li><a href="#">Space News</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
 
-  </main>
-  <footer>
+        <div class="nav-btn">
+            <button class="log-in-btn">Log in</button>
+            <button class="sign-in-btn">Sign in</button>
+        </div>
+    </header>
 
-  </footer>  
+    <!-- main -->
+    <section id="home">
+        <div class="hero-sctn">
+            <div class="about">
+                <h2>Explore the Wonders of Our Universe with</h2>
+                <h1>Exomos</h1>
+                <p>EXOMOS is a vibrant community of space enthusiasts with a passion for unraveling the mysteries of exoplanets. Dedicated to making exoplanet exploration accessible to everyone, EXOMOS simplifies the complexities of space science and invites people from all walks of life to engage in the discovery of new worlds. With a focus on education, innovation, and collaboration.</p>
+            </div>
+
+            <div class="hero-img">
+                <h3>Our lovely planet</h3>
+                <H2>EARTH</H2>
+                <img src="./images/Earth.webp" alt="">
+                <div class="planets-info">
+                    <div class="planet-info day-length">
+                        <p><b>Length of the day</b></p>
+                        <p>23.9 hours</p>
+                    </div>
+                    <div class="planet-info year-length">
+                        <p><b>Length of the year</b></p>
+                        <p>365.25 days</p>
+                    </div>
+                    <div class="planet-info distance-from-sun">
+                        <p><b>Distance from Sun</b></p>
+                        <p>150,196,425 kilometers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore-sctn">
+        <p>Explore the Universe</p>
+        <div class="explore-container">
+            <div class="explore solar"></div>
+            <div class="explore earth">
+                <h2>Earth</h2>
+                <img src="./images/Earth-spinning-rotating-animation-40.gif" alt="">
+            </div>
+            <div class="explore earth">
+                <h2>jupier</h2>
+                <img src="./images/jupiter.gif" alt="">
+            </div>
+            <div class="explore galaxy"></div>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
 </body>
 </html>

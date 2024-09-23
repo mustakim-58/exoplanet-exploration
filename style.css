@@ -1,52 +1,188 @@
-/* header related style */
 body {
-  width: 100%;
+  font-family: "Rajdhani", sans-serif;
+  background-color: black;
+  color: white;
   margin: 0;
 }
-.header {
-  background: url(images/header-background.png);
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 0, 19);
+  margin: 0;
   width: 100%;
-  
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
 }
-.header-ul {
+
+.hdr-img {
+  height: 100pxpx;
+  width: 100px;
+}
+
+.hdr-img img {
+  height: 100px;
+  width: 100px;
+}
+
+nav {
   display: flex;
   align-items: center;
-  /* padding: 60px 30px 30px 800px; */
 }
-.header-link {
-  color: azure;
-}
-nav li {
+
+header ul {
   list-style: none;
-  margin-right: 50px;
-}
-nav a {
-  text-decoration: none;
-  font-size: 26px;
-}
-.header-nav {
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
+  gap: 5rem;
 }
-.header-img {
-  flex: 1;
-  padding: 56px 30px;
-}
-header h1 {
-  font-size: 50px;
-}
-.header-text {
-  flex: 2;
-  padding: 30px;
+
+header a {
+  text-decoration: none;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header li > a:hover {
+  border-bottom: 5px solid blue;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-btn button {
+  height: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.log-in-btn {
+  background-color: transparent;
+}
+
+.log-in-btn:hover {
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+  transition: .2s;
+}
+
+.sign-in-btn {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+#home {
+  margin-top: 108px;
+  background-image: url(images/header-background.png.jpg);
+}
+
+.hero-sctn {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 1rem;
   text-align: justify;
 }
-.all-name {
-  font-weight: bold;
-  font-family: sans-serif;
-}
-.header-item {
+
+.about {
+  flex: 1;
   display: flex;
-  gap: 26px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h1 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about p {
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img h2, .hero-img h3 {
+  margin: 0;
+}
+
+.hero-img img {
+  width: 50%;
+}
+
+.planets-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.planet-info {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#explore-sctn {
+  margin: 1rem 20px 1rem 20px;
+  background-color: rgb(0, 0, 19);
+}
+
+#explore-sctn > p {
+  padding: 2rem;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.explore-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.explore {
+  border-radius: 10px;
+  flex: 1;
+  border: 1px solid rgba(0, 0, 255, 0.409);
+  transition: .3s;
+}
+
+.explore:hover {
+  box-shadow: 0 0 3px .3px rgb(61, 61, 249);
+}
+
+.earth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.earth h2 {
+  text-align: center;
 }
